@@ -257,7 +257,7 @@ class Page5:
 
         # User Interface
         st.title("Portuguese Langauge Teacher")
-        # st.image("Portuguese_Langauge_Teacher.png")
+        st.image("portugueseTeacher.png")
         st.write("Master on European Portuguese.")
 
         user_input = st.text_input("Please enter a message here.", key="user_input", on_change=communicate)
